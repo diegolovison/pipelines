@@ -25,7 +25,6 @@ from google_cloud_pipeline_components._implementation.model_evaluation.feature_a
 from google_cloud_pipeline_components._implementation.model_evaluation.feature_attribution.feature_attribution_graph_component import feature_attribution_graph_component as FeatureAttributionGraphComponentOp
 from google_cloud_pipeline_components._implementation.model_evaluation.feature_extractor.component import feature_extractor_error_analysis as FeatureExtractorOp
 from google_cloud_pipeline_components._implementation.model_evaluation.import_evaluated_annotation.component import evaluated_annotation_import as ModelImportEvaluatedAnnotationOp
-from google_cloud_pipeline_components._implementation.model_evaluation.import_evaluation.component import model_evaluation_import as ModelImportEvaluationOp
 from google_cloud_pipeline_components._implementation.model_evaluation.llm_classification_postprocessor.component import llm_classification_predictions_postprocessor_graph_component as LLMEvaluationClassificationPredictionsPostprocessorOp
 from google_cloud_pipeline_components._implementation.model_evaluation.llm_embedding.evaluation_llm_embedding_pipeline import evaluation_llm_embedding_pipeline
 from google_cloud_pipeline_components._implementation.model_evaluation.llm_embedding_retrieval.component import llm_embedding_retrieval as LLMEmbeddingRetrievalOp
@@ -63,7 +62,6 @@ __all__ = [
     'LLMSafetyBiasMetricsOp',
     'ModelEvaluationFeatureAttributionOp',
     'ModelImportEvaluatedAnnotationOp',
-    'ModelImportEvaluationOp',
     'ModelNamePreprocessorOp',
     'TargetFieldDataRemoverOp',
     'model_inference_component',
